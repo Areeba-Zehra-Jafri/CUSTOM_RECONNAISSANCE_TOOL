@@ -1,0 +1,3 @@
+dnspython
+python-whois
+requests
