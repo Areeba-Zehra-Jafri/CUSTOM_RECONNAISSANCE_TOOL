@@ -1,4 +1,4 @@
-# 🕵️ Custom Reconnaissance Tool
+#  Custom Reconnaissance Tool
 
 A lightweight, modular reconnaissance tool designed to automate **initial information gathering** during penetration testing and red team engagements.  
 This project focuses on **offensive tooling fundamentals**, modular design, and real-world usability.
@@ -151,13 +151,9 @@ docker run --rm custom-recon example.com --whois --dns --subdomains --ports 80,4
     docker run --rm -v $(pwd)/reports:/app/reports custom-recon example.com --dns
     ```
 ## Safe Test Targets
-
 - ```example.com```
-
 - ```testphp.vulnweb.com```
-
 - ```scanme.nmap.org```
-
 - ```demo.testfire.net```
 
 Only scan systems you own or have permission to test.
@@ -186,25 +182,16 @@ Scan End: 2026-01-19T14:43:02Z
 
 ## Learning Outcomes
 - Offensive reconnaissance workflows
-
 - Modular security tool design
-
 - Socket programming
-
 - CLI tooling best practices
-
 - Docker-based deployment
 
 ## Future Improvements
-
 - Technology detection via WhatWeb / Wappalyzer APIs
-
 - HTML report generation
-
 - Threaded port scanning
-
 - Additional subdomain APIs (AlienVault, SecurityTrails)
-
 - Optional GUI interface
 
 ## Disclaimer
