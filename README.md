@@ -68,7 +68,7 @@ Recon_Tool/
 
 ### Clone Repository
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Areeba-Zehra-Jafri/CUSTOM_RECONNAISSANCE_TOOL.git
 cd Recon_Tool 
 ```
 
@@ -122,6 +122,7 @@ Examples:
 ## Docker Usage
 
 ### Build Image
+
 ```bash 
 docker build -t custom-recon .
 ```
@@ -130,7 +131,8 @@ docker build -t custom-recon .
 
 ```bash 
 docker run --rm custom-recon example.com --dns
-``` 
+```
+ 
 ### Full Recon via Docker
 
 ```bash 
@@ -150,7 +152,9 @@ docker run --rm custom-recon example.com --whois --dns --subdomains --ports 80,4
     ``` bash
     docker run --rm -v $(pwd)/reports:/app/reports custom-recon example.com --dns
     ```
+    
 ## Safe Test Targets
+
 - ```example.com```
 - ```testphp.vulnweb.com```
 - ```scanme.nmap.org```
